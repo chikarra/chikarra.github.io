@@ -1,0 +1,62 @@
+---
+layout: single
+---
+
+<p>{{ page.desc }}</p>
+
+<img src="/produk/img/{{ page.thumb }}"></img>
+
+{% if page.variants %}
+<hr>
+<div class="img-box">
+	{% for variant in page.variants %}
+	<img class="img-item" src="/produk/img/{{ variant.image }}"></img>
+	{% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.variants %}
+<div>
+	<br>
+	<p>Varian:</p>
+	{% for variant in page.variants %}
+	<div class="radio-btn">
+		<input type="radio" id="{{ variant.name }}" class="variant-item"></input>
+		<label class="radio-label" for="{{ variant.name }}">{{ variant.name | capitalize }}</label>
+	</div>
+	{% endfor %}
+</div>
+{% endif %}
+
+<hr>
+
+<p>URL:</p>
+<ul>
+	<!-- sorry haha -->
+	{% if page.url_shopee %}
+	<li><a href="{{ page.url_shopee }}">Shopee</a></li>
+	{% endif %}
+
+	{% if page.url_blibli %}
+	<li><a href="{{ page.url_blibli }}">Blibli</a></li>
+	{% endif %}
+
+	{% if page.url_lazada %}
+	<li><a href="{{ page.url_lazada }}">Lazada</a></li>
+	{% endif %}
+
+	{% if page.url_tokopedia %}
+	<li><a href="{{ page.url_tokopedia }}">Tokopedia</a></li>
+	{% endif %}
+
+	{% if page.url_jdid %}
+	<li><a href="{{ page.url_jdid }}">JD.ID</a></li>
+	{% endif %}
+
+	{% if page.url_tiktok %}
+	<li><a href="{{ page.url_tiktok }}">TikTok</a></li>
+	{% endif %}
+</ul>
+	
+<script lang="JavaScript" src="/assets/js/product.js"></script>

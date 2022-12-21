@@ -1,0 +1,16 @@
+- name: Pizzi Softener 900 ml
+  desc: Pelembut dan pewangi pakaian.
+  category: "kebersihan"
+  url:
+    - shopee: "https://shopee.co.id/Pizzi-Softener-Blue-Pelembut-dan-Pewangi-Pakaian-900-mL--i.139061907.6337438850?sp_atk=924a5bec-fafc-4736-94b6-555c9080eff1&xptdk=924a5bec-fafc-4736-94b6-555c9080eff1"
+    - bibli: "https://www.blibli.com/p/pizzi-softener-pink-pelembut-dan-pewangi-pakaian-900-ml/ps--DEI-60033-00091?ds=DEI-60033-00091-00001&source=MERCHANT_PAGE&sid=663e5e6bcdfe728a&cnc=false&pickupPointCode=PP-3070151&pid=DEI-60033-00091"
+    - lazada: "https://www.lazada.co.id/products/pizzi-softener-pelembut-dan-pewangi-pakaian-i5853370705-s11314690212.html?clickTrackInfo=query%253Apizzi%253Bnid%253A5853370705%253Bsrc%253AlazadaInShopSrp%253Brn%253Af4bc536fb99107d2f854cc8af2edad87%253Bregion%253Aid%253Bsku%253A5853370705_ID%253Bprice%253A13900.00%253Bclient%253Adesktop%253Bsupplier_id%253A1000504520%253Basc_category_id%253A18373%253Bitem_id%253A5853370705%253Bsku_id%253A11314690212%253Bshop_id%253A990577&freeshipping=0&fs_ab=1&fuse_fs=0&request_id=f4bc536fb99107d2f854cc8af2edad87&search=1&source=search&spm=a2o4j.seller.list.i5.2487156d1NXthT"
+    - tokopedia: "https://www.tokopedia.com/sungokongshop/pizzi-softener-pelembut-dan-pewangi-pakaian-pink?extParam=whid%3D7518177"
+    - jdid: "https://www.jd.id/product/pizzi-softener-pink-pelembut-dan-pewangi-pakaian-900-ml_609481897/609482522.html"
+  thumb: "pizzi-softener.png"
+  variants:
+    - pink
+    - blue
+  variant_images:
+    - "pizzi-softener-pink.png"
+    - "pizzi-softener-blue.png"

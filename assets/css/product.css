@@ -1,0 +1,13 @@
+
+.radio-btn {
+	display: flex;
+	flex-direction: row;
+}
+
+.radio-label {
+	margin-left: 5px;
+}
+
+img {
+	max-height: 400px;
+}
