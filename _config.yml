@@ -96,7 +96,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom" yes i respect privacy absolutely but ugh i want analytics uhhh hmmm
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -108,11 +108,17 @@ author:
   avatar           : "/assets/image/profile.png"
   bio              : "Harga terbaik untuk semua orang."
   location         : "Bekasi, Jawa Barat, ID"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:sengtjok@gmail.com"
+    - label: "+62 895321186888"
+      icon: "fas fa-fw fa-comments"
+      url: "javascript:void"
+    - label: "WhatsApp"
+      icon: "fab fa-fw fa-whatsapp"
+      url: "https://wa.me/+62895321186888"
     - label: "Shopee"
       icon: "fas fa-fw fa-link"
       url: "https://shopee.co.id/chikarraofficial"
@@ -221,7 +227,7 @@ sass:
 
 
 # Outputting
-permalink: /product/:title/
+permalink: /produk/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

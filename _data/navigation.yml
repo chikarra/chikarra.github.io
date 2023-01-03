@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: Tentang
-    url: /tentang
   - title: "Produk"
     url: /produk
+  - title: Tentang
+    url: /tentang
